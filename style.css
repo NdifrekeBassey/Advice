@@ -1,0 +1,142 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the body font and background color */
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: rgba(32,38,50,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main container styles */
+.v1_54 {
+    width: 100%;
+    height: 100%;
+    background: rgba(32,38,50,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container for advice content */
+.v1_55 {
+    width: 540px;
+    height: 364px;
+    background: rgba(78,93,116,1);
+    opacity: 1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Dice icon container */
+.v1_56 {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+/* Dice icon styles */
+.dice-icon {
+    font-size: 50px;
+    background: #53ffa9;
+    border-radius: 50%;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Advice text styles with black color */
+.v1_57 {
+    color: #000; /* Black color */
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Advice number styles */
+.v1_58 {
+    color: rgba(83,255,169,1);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Horizontal divider styles */
+.v1_59 {
+    width: 100%;
+    height: 2px;
+    background: rgba(78,93,116,1);
+    margin-top: 20px;
+}
+
+/* Circle and name styles */
+/* .v1_65 {
+    width: 64px;
+    height: 64px;
+    background: #53ffa9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+} */
+
+/* Name text styles */
+.name {
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Additional styles for the green circle and border radius */
+.v1_56 .dice-icon {
+    border-radius: 50%;
+}
+
+/* Additional styles for the horizontal divider */
+.v1_59 {
+    background: rgba(78,93,116,1);
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Additional styles for the divider elements */
+.v1_60,
+.v1_61 {
+    width: 50%;
+    height: 1px;
+    background: rgba(78,93,116,1);
+}
+
+/* Additional styles for the small dots */
+.v1_62 {
+    width: 20px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.v1_63,
+.v1_64 {
+    width: 6px;
+    height: 6px;
+    background: rgba(78,93,116,1);
+    border-radius: 50%;
+}
